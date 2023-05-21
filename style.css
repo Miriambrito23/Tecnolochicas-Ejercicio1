@@ -1,0 +1,39 @@
+body{
+    /*Color de fondo del sitio */
+    background-color: #f8efb8;
+    /*Color para las letras  */
+    color: #e59520 ;
+      /*Tipo de letra con google fonts  */
+    font-family:'Kanit', sans-serif;
+}
+h1, p{
+    /*Color para las letras  */
+    color:#e56b15;
+}
+
+h3{
+    /*Tamaño de fuente */
+    font-size:35px;
+}
+
+img{
+    /*ancho  de imagen */
+    width: 300px;
+    /*altura  de imagen */
+    height: 200px;
+    /*borde para la  imagen, muchos estilos */
+    border-style: solid;
+    /*Tamaño del borde grueso  */
+    border-width: 8px;
+     /*Color del marco  */
+     border-color: #efcb6f;
+     /*Espacio entre imagen y el marco  */
+     padding: 20px;
+     /*Espacio en la pagina, que no este pegado a linea del sitio   */
+     margin: 20px;
+}
+
+a{
+    /*color de links de la letra  */
+    color:blue ;
+}

@@ -1,0 +1,87 @@
+<!--Definicion de tipo de documento -->
+<!DOCTYPE html>
+<!--Definicion de lenguaje "es" español  -->
+<html lang="es">
+    <!--Encabezado "head"-->
+    <head>
+        <!---UTF- caracteres del idioma español -->
+        <meta charset="UTF-8">
+      <title>Pagina de coches</title>
+      <link href="style.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    </head>
+    
+    <header>
+        <!--para titulos h1 mas grande hasta h6 -->
+     <h1>Pagina de coches</h1>
+    
+    </header>
+    
+    <body>
+      <h3> Imagenes de coches</h3>
+      <!--Agregar imagen desde internet src viene de fuente  -->
+      <img src="https://s3-us-west-1.amazonaws.com/db-imports/photos/images/000/037/362/large/Goodwood_2021_-_Vantage_F1_Edition.jpg?1680712872">
+      <br>
+      <!--Agregar imagen desde computadora  -->
+      <img src="IMG/coche.jpg">
+      <h3>Lista de coches</h3>
+      
+      <!--Agregar texto y strong es para resaltar  en negritas   -->
+      <p>Los coches son lo <strong>maximo </strong> </p>
+
+      <!--Listas ordenadas  -->
+      <ol> <!--Ordered list  -->
+        <li>Le mans</li>
+        <li>Daytona</li>
+        <li>Nurburgring</li>
+      </ol>
+    
+      <!--Listas desordenadas    -->
+      <!--i es para poner en cursivas    -->
+      <p>Marcas mas <i>conocidas</i> </p>
+      
+      <ul> <!--Unordered list  -->
+       
+        <li>  <!--List item  -->
+        Ferrari 
+       </li>
+       <li>Aston Martin </li>
+       <li>Lamborghini</li>
+      </ul>
+
+
+       <!--Enlaces externos    -->
+        <!--target blank es para abrir los links en otra pagina    -->
+       <p>Si quieres ver videos de un canal de coches <a href="https://www.youtube.com/@roberthaulin/videos" target="_blank"> da click aqui</a> </p>
+
+
+       <!--Formularios    -->
+       <!--Formularios  de radio  -->
+       <!--imput es para agregar informacion id-identificar type- tipo de formulario value-valor esperado de id  name - nombre de formulario   y checked es para que se cheque  -->
+       <p>¿Tu coche es automatico o manual? </p>
+       <label>
+        <input id="manual" type="radio" value="manual" name="coche-manual" checked>Manual
+       </label>
+       <br> <!--Salto de linea  -->
+       <label>
+        <input id="automatico" type="radio" value="automatico" name="coche-automatico">Automatico
+       </label>
+
+
+       <!--Formularios  de casillas de verificacion-->
+       <p>¿Que marca de coche te gusta mas?</p>
+       <label>
+        <input id="Ford" type="checkbox" value="Ford" name="marca-ford">Ford
+        <br>
+        <input id="BMW" type="checkbox" value="BMW" name="marca-BMW">BMW
+        <br>
+        <input id="Audi" type="checkbox" value="Audi" name="marca-Audi">Audi
+       </label>
+    </body>
+    
+    <footer>
+<p>
+    <small>Esta pagina fue creada por Miriam Brito Miranda en <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a> </small>
+</p>
+    </footer>
+</html>
